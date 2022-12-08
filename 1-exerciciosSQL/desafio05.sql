@@ -1,0 +1,1 @@
+SELECT * FROM produtos WHERE id IN ( SELECT id_produto FROM compras WHERE compras.id_cliente = 2 );
